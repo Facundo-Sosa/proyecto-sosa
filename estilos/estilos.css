@@ -70,6 +70,7 @@ body {
         text-align: center;
         line-height: 40px;
         z-index: 1;
+        transition: all .7s;
     }
     
     #check{
@@ -79,6 +80,7 @@ body {
     #check:checked ~ ul{
         top: 123px;
         z-index: 1;
+        transition: all .7s;
     }
 
     a {
